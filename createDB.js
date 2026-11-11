@@ -1,9 +1,12 @@
 const { MongoClient } = require('mongodb');
+const { data } = require('./data');
 
 const connectionString = process.env.MONGODB_URI || 'mongodb://127.0.0.1:27017';
 const client = new MongoClient(connectionString, { serverSelectionTimeoutMS: 3000 });
 
 async function main() {
+  console.log(`Loaded ${data.length} graphics-card records`);
+
   try {
     await client.connect();
     console.log('Connected successfully to MongoDB');
