@@ -2,3 +2,17 @@ node_modules
 .env
 .DS_Store
 npm-debug.log
+
+# Local Aider configuration, task history, and caches
+.aider-desk/
+.aider.input.history
+.aider.tags.cache.v4/
+
+# IDE configuration
+.idea/
+
+# Course materials and their extraction helper (not needed to run the app)
+materials.docx
+materials.txt
+scripts/extract_docx_text.py
+
