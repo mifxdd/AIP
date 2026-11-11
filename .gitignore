@@ -2,3 +2,10 @@ node_modules
 .env
 .DS_Store
 npm-debug.log
+.aider-desk/
+.aider.input.history
+.aider.tags.cache.v4/
+.idea/
+materials.docx
+materials.txt
+scripts/extract_docx_text.py
