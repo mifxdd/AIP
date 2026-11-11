@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f5f7fb;
+  color: #1f2937;
+}
+
+.site-header,
+.site-footer {
+  background: #0f172a;
+  color: #fff;
+  padding: 16px 24px;
+}
+
+.site-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.site-brand {
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.site-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.site-nav a {
+  color: #dbeafe;
+  text-decoration: none;
+}
+
+.site-main {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 32px 24px 48px;
+}
+
+.hero,
+.card {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(15, 23, 42, 0.08);
+}
+
+.hero {
+  padding: 24px;
+  margin-bottom: 24px;
+}
+
+.hero-content {
+  display: grid;
+  gap: 16px;
+  grid-template-columns: minmax(0, 280px) 1fr;
+  align-items: center;
+}
+
+.hero-content img {
+  width: 100%;
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+.card-grid {
+  display: grid;
+  gap: 16px;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
+.card {
+  padding: 20px;
+}
+
+.site-footer {
+  text-align: center;
+}
+
+@media (max-width: 640px) {
+  .hero-content {
+    grid-template-columns: 1fr;
+  }
+}

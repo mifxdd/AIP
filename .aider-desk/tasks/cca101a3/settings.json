@@ -1,0 +1,30 @@
+{
+  "id": "cca101a3",
+  "baseDir": "C:\\Users\\Admin\\PycharmProjects\\AIP",
+  "name": "Run bash tool test command",
+  "archived": false,
+  "aiderTotalCost": 0,
+  "agentTotalCost": 1.1459553000000002,
+  "mainModel": "",
+  "currentMode": "agent",
+  "weakModelLocked": false,
+  "parentId": null,
+  "lastAgentProviderMetadata": {
+    "openai": {
+      "responseId": "resp_0c87a040360ff158006af482ea9b7887d29f973e540cbfa49b",
+      "serviceTier": "default",
+      "reasoningContext": "current_turn"
+    }
+  },
+  "reasoningEffort": null,
+  "thinkingTokens": null,
+  "agentProfileId": "default",
+  "provider": "openai",
+  "model": "gpt-5.4-mini",
+  "workingMode": "local",
+  "updatedAt": "2026-11-11T14:58:22.533Z",
+  "createdAt": "2026-11-11T09:51:35.248Z",
+  "startedAt": "2026-11-11T14:56:24.482Z",
+  "state": "IN_PROGRESS",
+  "completedAt": "2026-11-11T10:02:43.561Z"
+}

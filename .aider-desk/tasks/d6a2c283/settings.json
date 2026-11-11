@@ -1,0 +1,31 @@
+{
+  "id": "d6a2c283",
+  "baseDir": "C:\\Users\\Admin\\PycharmProjects\\AIP",
+  "name": "Изучить материалы и сформулировать план проекта",
+  "archived": false,
+  "aiderTotalCost": 0,
+  "agentTotalCost": 0.014017429999999997,
+  "mainModel": "",
+  "currentMode": "agent",
+  "weakModelLocked": false,
+  "parentId": null,
+  "lastAgentProviderMetadata": {
+    "openai": {
+      "responseId": "resp_07683de76016e793006af42ecf02b487d2b856201652612439",
+      "serviceTier": "default",
+      "reasoningContext": "current_turn"
+    }
+  },
+  "reasoningEffort": null,
+  "thinkingTokens": null,
+  "agentProfileId": "default",
+  "provider": "openai",
+  "model": "gpt-5-nano",
+  "workingMode": "local",
+  "updatedAt": "2026-11-11T09:01:15.302Z",
+  "createdAt": "2026-11-11T08:34:51.690Z",
+  "startedAt": "2026-11-11T09:01:01.241Z",
+  "state": "READY_FOR_IMPLEMENTATION",
+  "completedAt": "2026-11-11T09:01:15.302Z",
+  "interruptedAt": "2026-11-11T08:57:13.209Z"
+}

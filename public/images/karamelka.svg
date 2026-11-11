@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360">
+  <rect width="640" height="360" fill="#4c1d95"/>
+  <circle cx="320" cy="150" r="100" fill="#f472b6"/>
+  <rect x="180" y="220" width="280" height="70" rx="18" fill="#f8fafc"/>
+  <text x="320" y="265" text-anchor="middle" font-family="Arial" font-size="28" fill="#111827">Карамелька</text>
+</svg>

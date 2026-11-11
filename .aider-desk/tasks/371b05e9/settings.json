@@ -1,0 +1,30 @@
+{
+  "id": "371b05e9",
+  "baseDir": "C:\\Users\\Admin\\PycharmProjects\\AIP",
+  "name": "Разработать план разработки ветвей проекта",
+  "archived": false,
+  "aiderTotalCost": 0,
+  "agentTotalCost": 0.014224230000000004,
+  "mainModel": "",
+  "currentMode": "agent",
+  "weakModelLocked": false,
+  "parentId": null,
+  "lastAgentProviderMetadata": {
+    "openai": {
+      "responseId": "resp_067c9d5d33738576006af439df4ac887d29ce65f98fd47f354",
+      "serviceTier": "default",
+      "reasoningContext": "current_turn"
+    }
+  },
+  "reasoningEffort": null,
+  "thinkingTokens": null,
+  "agentProfileId": "default",
+  "provider": "openai",
+  "model": "gpt-5-nano",
+  "workingMode": "local",
+  "updatedAt": "2026-11-11T09:48:21.930Z",
+  "createdAt": "2026-11-11T09:32:53.139Z",
+  "startedAt": "2026-11-11T09:48:08.706Z",
+  "state": "MORE_INFO_NEEDED",
+  "completedAt": "2026-11-11T09:48:21.930Z"
+}

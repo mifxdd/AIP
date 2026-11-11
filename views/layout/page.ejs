@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title><%= title %></title>
+  <link rel="stylesheet" href="/stylesheets/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="site-brand">Видеокарта</div>
+    <nav class="site-nav">
+      <% if (navigation && navigation.length) { %>
+        <% navigation.forEach(function(item) { %>
+          <a href="<%= item.href %>"><%= item.label %></a>
+        <% }); %>
+      <% } %>
+    </nav>
+  </header>
+  <main class="site-main">
+    <%- body %>
+  </main>
+  <footer class="site-footer">
+    <p>Учебный проект о видеокартах</p>
+  </footer>
+</body>
+</html>

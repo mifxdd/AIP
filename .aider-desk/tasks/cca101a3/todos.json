@@ -1,0 +1,17 @@
+{
+  "initialUserPrompt": "Используй power---bash и Python. Открой materials.docx, извлеки все непустые абзацы, найди разделы 4.1, 4.2, 4.3, 4.4, для каждого извлеки точный заголовок, полный текст до следующего раздела того же или более высокого уровня, и краткое содержание на русском языке. Выводи кириллицу через json.dumps(..., ensure_ascii=True). Не анализируй materials.txt. Не спрашивай разрешения на продолжение.",
+  "items": [
+    {
+      "name": "Inspect DOCX structure and locate sections 4.1-4.4",
+      "completed": true
+    },
+    {
+      "name": "Extract full text blocks for matched sections",
+      "completed": true
+    },
+    {
+      "name": "Produce JSON output with summaries",
+      "completed": true
+    }
+  ]
+}
