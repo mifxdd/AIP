@@ -9,13 +9,22 @@
 </head>
 <body>
   <header class="site-header">
-    <div class="site-brand"><%= siteName %></div>
-    <nav class="site-nav">
-      <% if (navigation && navigation.length) { %>
-        <% navigation.forEach(function(item) { %>
-          <a href="<%= item.href %>"><%= item.label %></a>
-        <% }); %>
-      <% } %>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <a class="navbar-brand" href="/"><%= siteName %></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#siteNavigation" aria-controls="siteNavigation" aria-expanded="false" aria-label="Открыть меню">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="siteNavigation">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <% if (navigation && navigation.length) { %>
+            <% navigation.forEach(function(item) { %>
+              <li class="nav-item">
+                <a class="nav-link" href="<%= item.href %>"><%= item.label %></a>
+              </li>
+            <% }); %>
+          <% } %>
+        </ul>
+      </div>
     </nav>
   </header>
   <main class="site-main">

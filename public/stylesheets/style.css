@@ -9,31 +9,21 @@ body {
 .site-footer {
   background: #0f172a;
   color: #fff;
-  padding: 16px 24px;
+  padding: 8px 24px;
 }
 
-.site-header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 16px;
-  flex-wrap: wrap;
-}
-
-.site-brand {
+.site-header .navbar-brand {
   font-size: 1.2rem;
   font-weight: 700;
 }
 
-.site-nav {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 12px;
+.site-header .nav-link {
+  color: #dbeafe;
 }
 
-.site-nav a {
-  color: #dbeafe;
-  text-decoration: none;
+.site-header .nav-link:hover,
+.site-header .nav-link:focus {
+  color: #fff;
 }
 
 .site-main {
