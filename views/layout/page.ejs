@@ -3,12 +3,12 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title><%= title %></title>
+  <title><%= title %> | <%= siteName %></title>
   <link rel="stylesheet" href="/stylesheets/style.css">
 </head>
 <body>
   <header class="site-header">
-    <div class="site-brand">Видеокарта</div>
+    <div class="site-brand"><%= siteName %></div>
     <nav class="site-nav">
       <% if (navigation && navigation.length) { %>
         <% navigation.forEach(function(item) { %>
