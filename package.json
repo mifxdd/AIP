@@ -20,8 +20,8 @@
   "homepage": "https://github.com/mifxdd/AIP#readme",
   "dependencies": {
     "ejs": "^7.0.2",
-    "ejs-locals": "^1.0.2",
     "express": "^5.3.0",
+    "express-ejs-layouts": "2.5.1",
     "mongodb": "7.8.0"
   }
 }
